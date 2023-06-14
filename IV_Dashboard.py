@@ -474,9 +474,8 @@ import dash_bootstrap_components as dbc
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbc.themes.LITERA]
 # Embed the style to the dashabord:
 app = JupyterDash(__name__, external_stylesheets=external_stylesheets)
-#server = app.server
+server = app.server
 
-#, dbc.themes.LITERA
 
 
 # In[24]:
