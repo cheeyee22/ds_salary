@@ -9,3 +9,4 @@ wordcloud
 dash_core_components
 dash_html_components
 jupyter_dash
+dash_bootstrap_components
