@@ -464,7 +464,6 @@ from dash import html
 
 from jupyter_dash import JupyterDash
 
-import dash_bootstrap_components as dbc
 
 
 # In[23]:
