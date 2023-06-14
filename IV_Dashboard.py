@@ -464,13 +464,13 @@ from dash import html
 
 from jupyter_dash import JupyterDash
 
-
+import dash_bootstrap_components as dbc
 
 # In[23]:
 
 
 # Setup the style from the link:
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbc.themes.LITERA]
 # Embed the style to the dashabord:
 app = JupyterDash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
